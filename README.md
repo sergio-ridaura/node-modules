@@ -1,4 +1,4 @@
-# Node.js modules v0.1.0
+# Node.js modules v1.0.0
 
 _Copyright (c) 2024 Sergio Ridaura._  
 _<https://sergio-ridaura.vercel.app> - <sergio.ridaura@outlook.com>_
@@ -51,7 +51,27 @@ npm run build
 
 ### class
 
-- **classDefault:** Allows you to add default classes to components or use a new one and add new classes.
+- **classDefault:** Allows you to add `default` class to components or use a new one and add new class.
+
+### date
+
+- **dateCheck:** Check that the date is correct.
+- **dateGet:** Get date.
+- **dateGetYear:** Get Year.
+
+### id
+
+- **idDefault:** Allows you to add `default` id to components or use a new id.
+
+### number
+
+- **numberIs:** Is number.
+- **twoDecimals:** Transform a number to two decimal places.
+
+### string
+
+- **stringIsNumber:** Text with numbers.
+- **stringIsNumberRegex:** Regular expression for text with numbers.
 
 ## Author
 
