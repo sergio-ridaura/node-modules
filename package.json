@@ -4,14 +4,14 @@
     "note": "Development information.",
     "see": "https://docs.npmjs.com/cli/v6/configuring-npm/package-json/"
   },
-  "name": "node-start-ridaura",
-  "version": "1.0.0",
+  "name": "node-modules-ridaura",
+  "version": "0.1.0",
   "keywords": [
     "node",
     "typescript",
     "npm"
   ],
-  "description": "My start theme to develop with Node.js and TypeScript.",
+  "description": "My collection of TypeScript modules that I use in my projects.",
   "author": {
     "name": "Sergio Ridaura",
     "url": "https://sergio-ridaura.vercel.app",
@@ -19,9 +19,10 @@
   },
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/sergio-ridaura/typescript-start",
+    "url": "https://github.com/sergio-ridaura/node-modules",
     "type": "github"
   },
+  "theme": "https://github.com/sergio-ridaura/node-start",
   "files": [
     "dist/"
   ],

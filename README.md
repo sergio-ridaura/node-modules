@@ -1,11 +1,11 @@
-# Node.js start v1.0.0
+# Node.js modules v0.1.0
 
 _Copyright (c) 2024 Sergio Ridaura._  
 _<https://sergio-ridaura.vercel.app> - <sergio.ridaura@outlook.com>_
 
 ## Description
 
-My start theme to develop with **Node.js** and **TypeScript**.
+My collection of **TypeScript** modules that I use in my projects.
 
 [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://sergio-ridaura.vercel.app/blog/node) &nbsp; [![TypeScript](https://img.shields.io/badge/TypeScript-0078D4?style=for-the-badge&logo=typescript&logoColor=white)](https://sergio-ridaura.vercel.app/blog/typescript)
 
@@ -20,7 +20,7 @@ docker-compose up -d
 Access the Node.js container.
 
 ```console
-docker exec -it node_node-start
+docker exec -it node_node-modules
 ```
 
 Add project dependencies.
