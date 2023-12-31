@@ -7,3 +7,5 @@ export { dateGet } from "./get";
 export type { DateGetType } from "./get.type";
 export { dateGetYear } from "./getYear";
 export type { DateGetYearType } from "./getYear.type";
+export { dateToLinux } from "./toLinux";
+export type { DateToLinuxType } from "./toLinux.type";

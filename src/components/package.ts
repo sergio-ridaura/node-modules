@@ -1,5 +1,5 @@
 /**
- * Compilation of functions, constants, types and similar of the project.
+ * Components to package and distribute in Npm.
  */
 import { classDefault, type ClassDefaultType } from "./class";
 import {
@@ -9,7 +9,10 @@ import {
   type DateGetType,
   dateGetYear,
   type DateGetYearType,
+  dateToLinux,
+  type DateToLinuxType,
 } from "./date";
+import { emailCheck, type EmailCheckType, emailRegex } from "./email";
 import { idDefault, type IdDefaultType } from "./id";
 import {
   numberIs,
@@ -32,6 +35,11 @@ export {
   type DateGetType,
   dateGetYear,
   type DateGetYearType,
+  dateToLinux,
+  type DateToLinuxType,
+  emailCheck,
+  type EmailCheckType,
+  emailRegex,
   idDefault,
   type IdDefaultType,
   numberIs,

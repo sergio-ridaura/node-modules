@@ -9,7 +9,10 @@ export {
   type DateGetType,
   dateGetYear,
   type DateGetYearType,
+  dateToLinux,
+  type DateToLinuxType,
 } from "./date";
+export { emailCheck, type EmailCheckType, emailRegex } from "./email";
 export { idDefault, type IdDefaultType } from "./id";
 export {
   numberIs,

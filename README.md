@@ -1,4 +1,4 @@
-# Node.js modules v1.0.0
+# Node.js modules v1.1.0
 
 _Copyright (c) 2024 Sergio Ridaura._  
 _<https://sergio-ridaura.vercel.app> - <sergio.ridaura@outlook.com>_
@@ -47,30 +47,59 @@ Create application and the package to use in Npm.
 npm run build
 ```
 
+Run the application.
+
+```console
+npm run start
+```
+
+Publish the package to Npm.
+
+```console
+npm addUser
+npm publish
+```
+
 ## Functions
 
 ### class
 
 - **classDefault:** Allows you to add `default` class to components or use a new one and add new class.
+- **ClassDefaultType:** classDefault Type.
 
 ### date
 
 - **dateCheck:** Check that the date is correct.
+- **DateCheckType:** dateCheck Type.
 - **dateGet:** Get date.
+- **DateGetType:** dateGet Type.
 - **dateGetYear:** Get Year.
+- **DateGetYearType:** dateGetYear Type.
+- **dateToLinux:** Convert a date to linux format.
+- **DateToLinuxType:** dateToLinux Type.
+
+## email
+
+- **emailCheck:** Check that the email is in a correct format.
+- **EmailCheckType:** emailCheck Type.
+- **emailRegex:** Email regular expression.
 
 ### id
 
 - **idDefault:** Allows you to add `default` id to components or use a new id.
+- **IdDefaultType:** idDefault Type.
 
 ### number
 
 - **numberIs:** Is number.
+- **NumberIsType:** numberIs Type.
 - **twoDecimals:** Transform a number to two decimal places.
+- **TwoDecimalType:** twoDecimal Type.
 
 ### string
 
 - **stringIsNumber:** Text with numbers.
+- **TwoDecimalType:** stringIsNumber Type.
 - **stringIsNumberRegex:** Regular expression for text with numbers.
 
 ## Author
