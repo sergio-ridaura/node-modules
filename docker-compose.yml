@@ -9,7 +9,7 @@ services:
 
   node:
     image: node
-    container_name: node_node-start
+    container_name: node_node-modules
     ports:
       - 3000:3000
     networks:
