@@ -3,6 +3,15 @@
  */
 export { classDefault, type ClassDefaultType } from "./class";
 export {
+  colorHexRegex,
+  type ColorHexCheckType,
+  colorHexExpand,
+  type ColorHexExpandType,
+  colorRandom,
+  colorBrightnessRandom,
+  type ColorBrightnessRandomType,
+} from "./color";
+export {
   dateCheck,
   type DateCheckType,
   dateGet,

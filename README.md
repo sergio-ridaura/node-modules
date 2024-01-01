@@ -67,6 +67,16 @@ npm publish
 - **classDefault:** Allows you to add `default` class to components or use a new one and add new class.
 - **ClassDefaultType:** classDefault Type.
 
+### color
+
+- **colorHexRegex:** Hexadecimal color regular expression.
+- **ColorHexCheckType:** colorHexCheck Type.
+- **colorHexExpand:** Return a 6-digit hexadecimal created from a 3-digit hexadecimal color.
+- **ColorHexExpandType:** colorHexExpand Type.
+- **colorRandom:** Generates a random hexadecimal color.
+- **colorBrightnessRandom:** Generates a random hexadecimal color from changing the brightness of another.
+- **ColorBrightnessRandomType:** colorBrightnessRandom Type.
+
 ### date
 
 - **dateCheck:** Check that the date is correct.

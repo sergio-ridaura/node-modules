@@ -3,6 +3,15 @@
  */
 import { classDefault, type ClassDefaultType } from "./class";
 import {
+  colorHexRegex,
+  type ColorHexCheckType,
+  colorHexExpand,
+  type ColorHexExpandType,
+  colorRandom,
+  colorBrightnessRandom,
+  type ColorBrightnessRandomType,
+} from "./color";
+import {
   dateCheck,
   type DateCheckType,
   dateGet,
@@ -29,6 +38,13 @@ import {
 export {
   classDefault,
   type ClassDefaultType,
+  colorHexRegex,
+  type ColorHexCheckType,
+  colorHexExpand,
+  type ColorHexExpandType,
+  colorRandom,
+  colorBrightnessRandom,
+  type ColorBrightnessRandomType,
   dateCheck,
   type DateCheckType,
   dateGet,
