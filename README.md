@@ -76,6 +76,8 @@ npm publish
 - **colorRandom:** Generates a random hexadecimal color.
 - **colorBrightnessRandom:** Generates a random hexadecimal color from changing the brightness of another.
 - **ColorBrightnessRandomType:** colorBrightnessRandom Type.
+- **colorSimilar:** Generates a random hexadecimal color from another.
+- **ColorSimilarType:** colorSimilar Type.
 
 ### date
 
@@ -99,15 +101,28 @@ npm publish
 - **idDefault:** Allows you to add `default` id to components or use a new id.
 - **IdDefaultType:** idDefault Type.
 
+### length
+
+- **feetToMeters:** Converts a measurement from feet to meters.
+- **FeetToMetersType:** feetToMeters Type.
+- **metersToFeet:** Converts a measurement from meters to feet.
+- **MetersToFeetType:** metersToFeet Type.
+
 ### number
 
 - **numberIs:** Is number.
 - **NumberIsType:** numberIs Type.
+- **numberIsPositive:** Number is positive.
+- **NumberIsPositiveType:** numberIsPositive Type.
+- **numberRandom:** Generate a random number.
+- **NumberRandomType:** numberRandom Type.
 - **twoDecimals:** Transform a number to two decimal places.
 - **TwoDecimalType:** twoDecimal Type.
 
 ### string
 
+- **stringIs:** Is string.
+- **StringIsType:** stringIs Type.
 - **stringIsNumber:** Text with numbers.
 - **TwoDecimalType:** stringIsNumber Type.
 - **stringIsNumberRegex:** Regular expression for text with numbers.

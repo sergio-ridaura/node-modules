@@ -7,10 +7,10 @@ const twoDecimal_1 = require("./twoDecimal");
 const node_test_1 = require("node:test");
 const node_assert_1 = __importDefault(require("node:assert"));
 /**
- * numberTwoDecimal test.
+ * twoDecimal test.
  * @see https://nodejs.org/api/test.html
  */
-(0, node_test_1.describe)("numberTwoDecimal.", () => {
+(0, node_test_1.describe)("twoDecimal.", () => {
     (0, node_test_1.it)("1. Return a number with two decimal places when given a positive integer.", () => {
         const result = (0, twoDecimal_1.twoDecimal)(5);
         node_assert_1.default.equal(result, 5.0);

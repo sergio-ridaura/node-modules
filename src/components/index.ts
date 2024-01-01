@@ -10,6 +10,8 @@ export {
   colorRandom,
   colorBrightnessRandom,
   type ColorBrightnessRandomType,
+  colorSimilar,
+  type ColorSimilarType,
 } from "./color";
 export {
   dateCheck,
@@ -24,12 +26,22 @@ export {
 export { emailCheck, type EmailCheckType, emailRegex } from "./email";
 export { idDefault, type IdDefaultType } from "./id";
 export {
+  feetToMeters,
+  type FeetToMetersType,
+  metersToFeet,
+  type MetersToFeetType,
+} from "./length";
+export {
   numberIs,
   type NumberIsType,
+  numberIsPositive,
+  type NumberIsPositiveType,
   twoDecimal,
   type TwoDecimalType,
 } from "./number";
 export {
+  stringIs,
+  type StringIsType,
   stringIsNumber,
   type StringIsNumberType,
   stringIsNumberRegex,

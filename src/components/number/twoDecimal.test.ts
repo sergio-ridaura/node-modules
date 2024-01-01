@@ -3,10 +3,10 @@ import { describe, it } from "node:test";
 import assert from "node:assert";
 
 /**
- * numberTwoDecimal test.
+ * twoDecimal test.
  * @see https://nodejs.org/api/test.html
  */
-describe("numberTwoDecimal.", (): void => {
+describe("twoDecimal.", (): void => {
   it("1. Return a number with two decimal places when given a positive integer.", (): void => {
     const result: number = twoDecimal(5);
 

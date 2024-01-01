@@ -105,7 +105,7 @@ describe("colorBrightnessRandom.", (): void => {
   it("16. Return error when receiving a negative variation.", (): void => {
     const result: boolean = colorHexCheck(colorBrightnessRandom("#FF0000", -2));
 
-    assert.equal(result, true);
+    assert.equal(result, false);
   });
 
   it("17. Return valid hexadecimal when receiving a variation with decimals.", (): void => {

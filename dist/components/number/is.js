@@ -4,7 +4,7 @@ exports.numberIs = void 0;
 /**
  * Is number.
  *
- * @param number Data to analyze.
+ * @param number Number to analyze.
  * @returns Is number
  */
 const numberIs = (number) => {

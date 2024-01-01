@@ -4,7 +4,7 @@ import type { ColorHexCheckType } from "./hexCheck.type";
 /**
  * Check that the hexadecimal color is correct.
  *
- * @param color Color to examine.
+ * @param color Color to evaluate.
  * @returns It is hexadecimal.
  */
 export const colorHexCheck: ColorHexCheckType = (color) => {

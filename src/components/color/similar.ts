@@ -1,18 +1,16 @@
 import { colorHexCheck } from "./hexCheck";
 import { colorHexExpand } from "./hexExpand";
 import { numberIsPositive } from "../number/isPositive";
+import type { ColorSimilarType } from "./similar.type";
 
 /**
  * Generates a random hexadecimal color from another.
- * 
- * @param color 
- * @param variation 
- * @returns 
+ *
+ * @param color Hexadecimal color.
+ * @param variation Color variation.
+ * @returns Random color.
  */
-export const colorSimilar: = (
-  color: string,
-  variation: number = 127
-): string => {
+export const colorSimilar: ColorSimilarType = (color, variation = 127) => {
   if (!colorHexCheck(color)) {
     return "error: invalid color";
   }
@@ -58,4 +56,4 @@ export const colorSimilar: = (
   }
 
   return "error: unknown error";
-}
+};

@@ -10,6 +10,8 @@ import {
   colorRandom,
   colorBrightnessRandom,
   type ColorBrightnessRandomType,
+  colorSimilar,
+  type ColorSimilarType,
 } from "./color";
 import {
   dateCheck,
@@ -24,12 +26,24 @@ import {
 import { emailCheck, type EmailCheckType, emailRegex } from "./email";
 import { idDefault, type IdDefaultType } from "./id";
 import {
+  feetToMeters,
+  type FeetToMetersType,
+  metersToFeet,
+  type MetersToFeetType,
+} from "./length";
+import {
   numberIs,
   type NumberIsType,
+  numberIsPositive,
+  type NumberIsPositiveType,
+  numberRandom,
+  type NumberRandomType,
   twoDecimal,
   type TwoDecimalType,
 } from "./number";
 import {
+  stringIs,
+  type StringIsType,
   stringIsNumber,
   type StringIsNumberType,
   stringIsNumberRegex,
@@ -45,6 +59,8 @@ export {
   colorRandom,
   colorBrightnessRandom,
   type ColorBrightnessRandomType,
+  colorSimilar,
+  type ColorSimilarType,
   dateCheck,
   type DateCheckType,
   dateGet,
@@ -58,10 +74,20 @@ export {
   emailRegex,
   idDefault,
   type IdDefaultType,
+  feetToMeters,
+  type FeetToMetersType,
+  metersToFeet,
+  type MetersToFeetType,
   numberIs,
   type NumberIsType,
+  numberIsPositive,
+  type NumberIsPositiveType,
+  numberRandom,
+  type NumberRandomType,
   twoDecimal,
   type TwoDecimalType,
+  stringIs,
+  type StringIsType,
   stringIsNumber,
   type StringIsNumberType,
   stringIsNumberRegex,
