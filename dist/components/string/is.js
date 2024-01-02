@@ -4,8 +4,8 @@ exports.stringIs = void 0;
 /**
  * Is string.
  *
- * @param string
- * @returns
+ * @param string To analyze.
+ * @returns Is string.
  */
 const stringIs = (string) => {
     return typeof string === "string";

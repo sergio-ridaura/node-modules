@@ -65,100 +65,90 @@ npm publish
 ### class
 
 - **classDefault:** Allows you to add `default` class to components or use a new one and add new class.
-- **ClassDefaultType:** classDefault Type.
 
 ### color
 
 - **colorHexRegex:** Hexadecimal color regular expression.
-- **ColorHexCheckType:** colorHexCheck Type.
 - **colorHexExpand:** Return a 6-digit hexadecimal created from a 3-digit hexadecimal color.
-- **ColorHexExpandType:** colorHexExpand Type.
 - **colorRandom:** Generates a random hexadecimal color.
 - **colorBrightnessRandom:** Generates a random hexadecimal color from changing the brightness of another.
-- **ColorBrightnessRandomType:** colorBrightnessRandom Type.
 - **colorSimilar:** Generates a random hexadecimal color from another.
-- **ColorSimilarType:** colorSimilar Type.
 
 ### date
 
 - **dateCheck:** Check that the date is correct.
-- **DateCheckType:** dateCheck Type.
 - **dateGet:** Get date.
-- **DateGetType:** dateGet Type.
 - **dateGetYear:** Get Year.
-- **DateGetYearType:** dateGetYear Type.
 - **dateToLinux:** Convert a date to linux format.
-- **DateToLinuxType:** dateToLinux Type.
 
 ## email
 
 - **emailCheck:** Check that the email is in a correct format.
-- **EmailCheckType:** emailCheck Type.
 - **emailRegex:** Email regular expression.
 
 ### id
 
 - **idDefault:** Allows you to add `default` id to components or use a new id.
-- **IdDefaultType:** idDefault Type.
 
 ### length
 
 - **feetToMeters:** Converts a measurement from feet to meters.
-- **FeetToMetersType:** feetToMeters Type.
 - **metersToFeet:** Converts a measurement from meters to feet.
-- **MetersToFeetType:** metersToFeet Type.
 
 ### number
 
 - **numberIs:** Is number.
-- **NumberIsType:** numberIs Type.
 - **numberIsPair:** Number is pair.
-- **NumberIsPairType:** stringIsPair Type.
 - **numberIsPositive:** Number is positive.
-- **NumberIsPositiveType:** numberIsPositive Type.
 - **numberRandom:** Generate a random number.
-- **NumberRandomType:** numberRandom Type.
 - **numberToBoolean:** Number to boolean.
-- **NumberToBooleanType:** numberToBoolean Type.
 - **numberToString:** Number to string.
-- **NumberToStringType:** numberToString Type.
 - **twoDecimals:** Transform a number to two decimal places.
-- **TwoDecimalType:** twoDecimal Type.
 - **twoDecimalsString:** Transform a number to string two decimal places.
-- **TwoDecimalsStringType:** twoDecimalsString Type.
-
-### string
-
-- **stringIs:** Is string.
-- **StringIsType:** stringIs Type.
-- **stringIsNumber:** Text with numbers.
-- **TwoDecimalType:** stringIsNumber Type.
-- **stringIsNumberRegex:** Regular expression for text with numbers.
-
-## temperature
-
-- **celsiusToFahrenheit:** Converts a temperature in celsius to fahrenheit.
-- **CelsiusToFahrenheitType:** celsiusToFahrenheit Type.
-- **fahrenheitToCelsius:** Converts a temperature in fahrenheit to celsius.
-- **FahrenheitToCelsiusType:** fahrenheitToCelsius Type.
-
-## weight
-
-- **kilogramsToPounds:** Converts a weight in kilograms to pounds.
-- **KilogramsToPoundsType:** kilogramsToPounds Type.
-- **poundsToKilograms:** Converts a weight in pounds to kilograms.
-- **PoundsToKilogramsType:** poundsToKilograms Type.
 
 ## speed
 
 - **kphToMph:** Converts a speed from kph to mph.
-- **KphToMphType:** kphToMph Type.
 - **mphToKph:** Converts a speed from mph to kph.
-- **MphToKphType:** mphToKph Type.
+
+### string
+
+- **stringContainLetter:** Text containing letters.
+- **stringContainLetterExtent:** Text containing letter extent.
+- **stringContainLetterExtentRegex:** Regular expression for text containing letter extent.
+- **stringContainLetterRegex:** Regular expression for text containing letters.
+- **stringContainLowercase:** Text containing lowercase letters.
+- **stringContainLowercaseRegex:** Regular expression for text containing lowercase letters.
+- **stringContainNumber:** Text containing numbers.
+- **stringContainNumberRegex:** Regular expression for text containing number.
+- **stringContainSpace:** Text containing space.
+- **stringContainSpaceRegex:** Regular expression for text containing spaces.
+- **stringContainSymbol:** Text containing symbols.
+- **stringContainSymbolRegex:** Regular expression for text containing symbol.
+- **stringContainUppercaseRegex:** Regular expression for text containing uppercase letters.
+- **stringIs:** Is string.
+- **stringIsCapitalRegex:** Regular expression for text starts with a capital letter.
+- **stringIsLetterExtentRegex:** Regular expression for text with letter extent.
+- **stringIsLetterRegex:** Regular expression for text with lowercase letters.
+- **stringIsLowercaseRegex:** Regular expression for text with lowercase letters.
+- **stringIsNumber:** Text with numbers.
+- **stringIsNumberRegex:** Regular expression for text with numbers.
+- **stringIsSpaceRegex:** Regular expression for text with spaces.
+- **stringIsSymbolRegex:** Regular expression for text with symbols.
+
+## temperature
+
+- **celsiusToFahrenheit:** Converts a temperature in celsius to fahrenheit.
+- **fahrenheitToCelsius:** Converts a temperature in fahrenheit to celsius.
+
+## weight
+
+- **kilogramsToPounds:** Converts a weight in kilograms to pounds.
+- **poundsToKilograms:** Converts a weight in pounds to kilograms.
 
 ## Author
 
-**Sergio Ridaura**
+### Sergio Ridaura
 
 Full stack developer in **TypeScript** with **Astro.js**, **React.js**, **Node.js** and **MongoDB**.  
 Quick development of high-performance applications and websites.

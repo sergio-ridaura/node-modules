@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.poundsToKilograms = exports.kilogramsToPounds = exports.fahrenheitToCelsius = exports.celsiusToFahrenheit = exports.stringIsNumberRegex = exports.stringIsNumber = exports.stringIs = exports.mphToKph = exports.kphToMph = exports.twoDecimalsString = exports.twoDecimal = exports.numberToString = exports.numberToBoolean = exports.numberRandom = exports.numberIsPositive = exports.numberIsPair = exports.numberIs = exports.metersToFeet = exports.feetToMeters = exports.idDefault = exports.emailRegex = exports.emailCheck = exports.dateToLinux = exports.dateGetYear = exports.dateGet = exports.dateCheck = exports.colorSimilar = exports.colorBrightnessRandom = exports.colorRandom = exports.colorHexExpand = exports.colorHexRegex = exports.classDefault = void 0;
+exports.kilogramsToPounds = exports.fahrenheitToCelsius = exports.celsiusToFahrenheit = exports.stringIsSymbolRegex = exports.stringIsSpaceRegex = exports.stringIsNumberRegex = exports.stringIsNumber = exports.stringIsLowercaseRegex = exports.stringIsLetterRegex = exports.stringIsLetterExtentRegex = exports.stringIsCapitalRegex = exports.stringIs = exports.stringContainUppercaseRegex = exports.stringContainSymbolRegex = exports.stringContainSymbol = exports.stringContainSpaceRegex = exports.stringContainSpace = exports.stringContainNumberRegex = exports.stringContainNumber = exports.stringContainLowercaseRegex = exports.stringContainLowercase = exports.stringContainLetterRegex = exports.stringContainLetterExtentRegex = exports.stringContainLetterExtent = exports.stringContainLetter = exports.mphToKph = exports.kphToMph = exports.twoDecimalsString = exports.twoDecimal = exports.numberToString = exports.numberToBoolean = exports.numberRandom = exports.numberIsPositive = exports.numberIsPair = exports.numberIs = exports.metersToFeet = exports.feetToMeters = exports.idDefault = exports.emailRegex = exports.emailCheck = exports.dateToLinux = exports.dateGetYear = exports.dateGet = exports.dateCheck = exports.colorSimilar = exports.colorBrightnessRandom = exports.colorRandom = exports.colorHexExpand = exports.colorHexRegex = exports.classDefault = void 0;
+exports.poundsToKilograms = void 0;
 /**
  * All componentes.
  */
@@ -38,9 +39,28 @@ var speed_1 = require("./speed");
 Object.defineProperty(exports, "kphToMph", { enumerable: true, get: function () { return speed_1.kphToMph; } });
 Object.defineProperty(exports, "mphToKph", { enumerable: true, get: function () { return speed_1.mphToKph; } });
 var string_1 = require("./string");
+Object.defineProperty(exports, "stringContainLetter", { enumerable: true, get: function () { return string_1.stringContainLetter; } });
+Object.defineProperty(exports, "stringContainLetterExtent", { enumerable: true, get: function () { return string_1.stringContainLetterExtent; } });
+Object.defineProperty(exports, "stringContainLetterExtentRegex", { enumerable: true, get: function () { return string_1.stringContainLetterExtentRegex; } });
+Object.defineProperty(exports, "stringContainLetterRegex", { enumerable: true, get: function () { return string_1.stringContainLetterRegex; } });
+Object.defineProperty(exports, "stringContainLowercase", { enumerable: true, get: function () { return string_1.stringContainLowercase; } });
+Object.defineProperty(exports, "stringContainLowercaseRegex", { enumerable: true, get: function () { return string_1.stringContainLowercaseRegex; } });
+Object.defineProperty(exports, "stringContainNumber", { enumerable: true, get: function () { return string_1.stringContainNumber; } });
+Object.defineProperty(exports, "stringContainNumberRegex", { enumerable: true, get: function () { return string_1.stringContainNumberRegex; } });
+Object.defineProperty(exports, "stringContainSpace", { enumerable: true, get: function () { return string_1.stringContainSpace; } });
+Object.defineProperty(exports, "stringContainSpaceRegex", { enumerable: true, get: function () { return string_1.stringContainSpaceRegex; } });
+Object.defineProperty(exports, "stringContainSymbol", { enumerable: true, get: function () { return string_1.stringContainSymbol; } });
+Object.defineProperty(exports, "stringContainSymbolRegex", { enumerable: true, get: function () { return string_1.stringContainSymbolRegex; } });
+Object.defineProperty(exports, "stringContainUppercaseRegex", { enumerable: true, get: function () { return string_1.stringContainUppercaseRegex; } });
 Object.defineProperty(exports, "stringIs", { enumerable: true, get: function () { return string_1.stringIs; } });
+Object.defineProperty(exports, "stringIsCapitalRegex", { enumerable: true, get: function () { return string_1.stringIsCapitalRegex; } });
+Object.defineProperty(exports, "stringIsLetterExtentRegex", { enumerable: true, get: function () { return string_1.stringIsLetterExtentRegex; } });
+Object.defineProperty(exports, "stringIsLetterRegex", { enumerable: true, get: function () { return string_1.stringIsLetterRegex; } });
+Object.defineProperty(exports, "stringIsLowercaseRegex", { enumerable: true, get: function () { return string_1.stringIsLowercaseRegex; } });
 Object.defineProperty(exports, "stringIsNumber", { enumerable: true, get: function () { return string_1.stringIsNumber; } });
 Object.defineProperty(exports, "stringIsNumberRegex", { enumerable: true, get: function () { return string_1.stringIsNumberRegex; } });
+Object.defineProperty(exports, "stringIsSpaceRegex", { enumerable: true, get: function () { return string_1.stringIsSpaceRegex; } });
+Object.defineProperty(exports, "stringIsSymbolRegex", { enumerable: true, get: function () { return string_1.stringIsSymbolRegex; } });
 var temperature_1 = require("./temperature");
 Object.defineProperty(exports, "celsiusToFahrenheit", { enumerable: true, get: function () { return temperature_1.celsiusToFahrenheit; } });
 Object.defineProperty(exports, "fahrenheitToCelsius", { enumerable: true, get: function () { return temperature_1.fahrenheitToCelsius; } });
