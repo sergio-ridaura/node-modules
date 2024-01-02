@@ -7,5 +7,8 @@ export { dateCheck, type DateCheckType, dateGet, type DateGetType, dateGetYear, 
 export { emailCheck, type EmailCheckType, emailRegex } from "./email";
 export { idDefault, type IdDefaultType } from "./id";
 export { feetToMeters, type FeetToMetersType, metersToFeet, type MetersToFeetType, } from "./length";
-export { numberIs, type NumberIsType, numberIsPositive, type NumberIsPositiveType, twoDecimal, type TwoDecimalType, } from "./number";
+export { numberIs, type NumberIsType, numberIsPair, type NumberIsPairType, numberIsPositive, type NumberIsPositiveType, numberRandom, type NumberRandomType, numberToBoolean, type NumberToBooleanType, numberToString, type NumberToStringType, twoDecimal, type TwoDecimalType, twoDecimalsString, type TwoDecimalsStringType, } from "./number";
+export { kphToMph, type KphToMphType, mphToKph, type MphToKphType, } from "./speed";
 export { stringIs, type StringIsType, stringIsNumber, type StringIsNumberType, stringIsNumberRegex, } from "./string";
+export { celsiusToFahrenheit, type CelsiusToFahrenheitType, fahrenheitToCelsius, type FahrenheitToCelsiusType, } from "./temperature";
+export { kilogramsToPounds, type KilogramsToPoundsType, poundsToKilograms, type PoundsToKilogramsType, } from "./weight";

@@ -34,11 +34,27 @@ export {
 export {
   numberIs,
   type NumberIsType,
+  numberIsPair,
+  type NumberIsPairType,
   numberIsPositive,
   type NumberIsPositiveType,
+  numberRandom,
+  type NumberRandomType,
+  numberToBoolean,
+  type NumberToBooleanType,
+  numberToString,
+  type NumberToStringType,
   twoDecimal,
   type TwoDecimalType,
+  twoDecimalsString,
+  type TwoDecimalsStringType,
 } from "./number";
+export {
+  kphToMph,
+  type KphToMphType,
+  mphToKph,
+  type MphToKphType,
+} from "./speed";
 export {
   stringIs,
   type StringIsType,
@@ -46,3 +62,15 @@ export {
   type StringIsNumberType,
   stringIsNumberRegex,
 } from "./string";
+export {
+  celsiusToFahrenheit,
+  type CelsiusToFahrenheitType,
+  fahrenheitToCelsius,
+  type FahrenheitToCelsiusType,
+} from "./temperature";
+export {
+  kilogramsToPounds,
+  type KilogramsToPoundsType,
+  poundsToKilograms,
+  type PoundsToKilogramsType,
+} from "./weight";

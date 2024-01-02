@@ -5,7 +5,7 @@ exports.numberIs = void 0;
  * Is number.
  *
  * @param number Number to analyze.
- * @returns Is number
+ * @returns Is number.
  */
 const numberIs = (number) => {
     return typeof number === "number" && !isNaN(number);

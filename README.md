@@ -112,12 +112,20 @@ npm publish
 
 - **numberIs:** Is number.
 - **NumberIsType:** numberIs Type.
+- **numberIsPair:** Number is pair.
+- **NumberIsPairType:** stringIsPair Type.
 - **numberIsPositive:** Number is positive.
 - **NumberIsPositiveType:** numberIsPositive Type.
 - **numberRandom:** Generate a random number.
 - **NumberRandomType:** numberRandom Type.
+- **numberToBoolean:** Number to boolean.
+- **NumberToBooleanType:** numberToBoolean Type.
+- **numberToString:** Number to string.
+- **NumberToStringType:** numberToString Type.
 - **twoDecimals:** Transform a number to two decimal places.
 - **TwoDecimalType:** twoDecimal Type.
+- **twoDecimalsString:** Transform a number to string two decimal places.
+- **TwoDecimalsStringType:** twoDecimalsString Type.
 
 ### string
 
@@ -126,6 +134,27 @@ npm publish
 - **stringIsNumber:** Text with numbers.
 - **TwoDecimalType:** stringIsNumber Type.
 - **stringIsNumberRegex:** Regular expression for text with numbers.
+
+## temperature
+
+- **celsiusToFahrenheit:** Converts a temperature in celsius to fahrenheit.
+- **CelsiusToFahrenheitType:** celsiusToFahrenheit Type.
+- **fahrenheitToCelsius:** Converts a temperature in fahrenheit to celsius.
+- **FahrenheitToCelsiusType:** fahrenheitToCelsius Type.
+
+## weight
+
+- **kilogramsToPounds:** Converts a weight in kilograms to pounds.
+- **KilogramsToPoundsType:** kilogramsToPounds Type.
+- **poundsToKilograms:** Converts a weight in pounds to kilograms.
+- **PoundsToKilogramsType:** poundsToKilograms Type.
+
+## speed
+
+- **kphToMph:** Converts a speed from kph to mph.
+- **KphToMphType:** kphToMph Type.
+- **mphToKph:** Converts a speed from mph to kph.
+- **MphToKphType:** mphToKph Type.
 
 ## Author
 

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.stringIsNumberRegex = exports.stringIsNumber = exports.stringIs = exports.twoDecimal = exports.numberIsPositive = exports.numberIs = exports.metersToFeet = exports.feetToMeters = exports.idDefault = exports.emailRegex = exports.emailCheck = exports.dateToLinux = exports.dateGetYear = exports.dateGet = exports.dateCheck = exports.colorSimilar = exports.colorBrightnessRandom = exports.colorRandom = exports.colorHexExpand = exports.colorHexRegex = exports.classDefault = void 0;
+exports.poundsToKilograms = exports.kilogramsToPounds = exports.fahrenheitToCelsius = exports.celsiusToFahrenheit = exports.stringIsNumberRegex = exports.stringIsNumber = exports.stringIs = exports.mphToKph = exports.kphToMph = exports.twoDecimalsString = exports.twoDecimal = exports.numberToString = exports.numberToBoolean = exports.numberRandom = exports.numberIsPositive = exports.numberIsPair = exports.numberIs = exports.metersToFeet = exports.feetToMeters = exports.idDefault = exports.emailRegex = exports.emailCheck = exports.dateToLinux = exports.dateGetYear = exports.dateGet = exports.dateCheck = exports.colorSimilar = exports.colorBrightnessRandom = exports.colorRandom = exports.colorHexExpand = exports.colorHexRegex = exports.classDefault = void 0;
 /**
  * All componentes.
  */
@@ -27,9 +27,23 @@ Object.defineProperty(exports, "feetToMeters", { enumerable: true, get: function
 Object.defineProperty(exports, "metersToFeet", { enumerable: true, get: function () { return length_1.metersToFeet; } });
 var number_1 = require("./number");
 Object.defineProperty(exports, "numberIs", { enumerable: true, get: function () { return number_1.numberIs; } });
+Object.defineProperty(exports, "numberIsPair", { enumerable: true, get: function () { return number_1.numberIsPair; } });
 Object.defineProperty(exports, "numberIsPositive", { enumerable: true, get: function () { return number_1.numberIsPositive; } });
+Object.defineProperty(exports, "numberRandom", { enumerable: true, get: function () { return number_1.numberRandom; } });
+Object.defineProperty(exports, "numberToBoolean", { enumerable: true, get: function () { return number_1.numberToBoolean; } });
+Object.defineProperty(exports, "numberToString", { enumerable: true, get: function () { return number_1.numberToString; } });
 Object.defineProperty(exports, "twoDecimal", { enumerable: true, get: function () { return number_1.twoDecimal; } });
+Object.defineProperty(exports, "twoDecimalsString", { enumerable: true, get: function () { return number_1.twoDecimalsString; } });
+var speed_1 = require("./speed");
+Object.defineProperty(exports, "kphToMph", { enumerable: true, get: function () { return speed_1.kphToMph; } });
+Object.defineProperty(exports, "mphToKph", { enumerable: true, get: function () { return speed_1.mphToKph; } });
 var string_1 = require("./string");
 Object.defineProperty(exports, "stringIs", { enumerable: true, get: function () { return string_1.stringIs; } });
 Object.defineProperty(exports, "stringIsNumber", { enumerable: true, get: function () { return string_1.stringIsNumber; } });
 Object.defineProperty(exports, "stringIsNumberRegex", { enumerable: true, get: function () { return string_1.stringIsNumberRegex; } });
+var temperature_1 = require("./temperature");
+Object.defineProperty(exports, "celsiusToFahrenheit", { enumerable: true, get: function () { return temperature_1.celsiusToFahrenheit; } });
+Object.defineProperty(exports, "fahrenheitToCelsius", { enumerable: true, get: function () { return temperature_1.fahrenheitToCelsius; } });
+var weight_1 = require("./weight");
+Object.defineProperty(exports, "kilogramsToPounds", { enumerable: true, get: function () { return weight_1.kilogramsToPounds; } });
+Object.defineProperty(exports, "poundsToKilograms", { enumerable: true, get: function () { return weight_1.poundsToKilograms; } });

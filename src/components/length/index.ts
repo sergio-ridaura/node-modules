@@ -1,3 +1,6 @@
+/**
+ * Related to length.
+ */
 export { feetToMeters } from "./feetToMeters";
 export type { FeetToMetersType } from "./feetToMeters.type";
 export { metersToFeet } from "./metersToFeet";

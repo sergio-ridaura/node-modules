@@ -34,13 +34,27 @@ import {
 import {
   numberIs,
   type NumberIsType,
+  numberIsPair,
+  type NumberIsPairType,
   numberIsPositive,
   type NumberIsPositiveType,
   numberRandom,
   type NumberRandomType,
+  numberToBoolean,
+  type NumberToBooleanType,
+  numberToString,
+  type NumberToStringType,
   twoDecimal,
   type TwoDecimalType,
+  twoDecimalsString,
+  type TwoDecimalsStringType,
 } from "./number";
+import {
+  kphToMph,
+  type KphToMphType,
+  mphToKph,
+  type MphToKphType,
+} from "./speed";
 import {
   stringIs,
   type StringIsType,
@@ -48,6 +62,18 @@ import {
   type StringIsNumberType,
   stringIsNumberRegex,
 } from "./string";
+import {
+  celsiusToFahrenheit,
+  type CelsiusToFahrenheitType,
+  fahrenheitToCelsius,
+  type FahrenheitToCelsiusType,
+} from "./temperature";
+import {
+  kilogramsToPounds,
+  type KilogramsToPoundsType,
+  poundsToKilograms,
+  type PoundsToKilogramsType,
+} from "./weight";
 
 export {
   classDefault,
@@ -80,15 +106,35 @@ export {
   type MetersToFeetType,
   numberIs,
   type NumberIsType,
+  numberIsPair,
+  type NumberIsPairType,
   numberIsPositive,
   type NumberIsPositiveType,
   numberRandom,
   type NumberRandomType,
+  numberToBoolean,
+  type NumberToBooleanType,
+  numberToString,
+  type NumberToStringType,
+  kphToMph,
+  type KphToMphType,
+  mphToKph,
+  type MphToKphType,
   twoDecimal,
   type TwoDecimalType,
+  twoDecimalsString,
+  type TwoDecimalsStringType,
   stringIs,
   type StringIsType,
   stringIsNumber,
   type StringIsNumberType,
   stringIsNumberRegex,
+  celsiusToFahrenheit,
+  type CelsiusToFahrenheitType,
+  fahrenheitToCelsius,
+  type FahrenheitToCelsiusType,
+  kilogramsToPounds,
+  type KilogramsToPoundsType,
+  poundsToKilograms,
+  type PoundsToKilogramsType,
 };

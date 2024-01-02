@@ -1,6 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.colorSimilar = exports.colorBrightnessRandom = exports.colorRandom = exports.colorHexExpand = exports.colorHexRegex = void 0;
+/**
+ * Related to color.
+ */
 var hexRegex_1 = require("./hexRegex");
 Object.defineProperty(exports, "colorHexRegex", { enumerable: true, get: function () { return hexRegex_1.colorHexRegex; } });
 var hexExpand_1 = require("./hexExpand");

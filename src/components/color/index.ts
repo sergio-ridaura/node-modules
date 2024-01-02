@@ -1,3 +1,6 @@
+/**
+ * Related to color.
+ */
 export { colorHexRegex } from "./hexRegex";
 export type { ColorHexCheckType } from "./hexCheck.type";
 export { colorHexExpand } from "./hexExpand";
