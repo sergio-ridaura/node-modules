@@ -68,8 +68,9 @@ npm publish
 
 ### color
 
-- **colorHexRegex:** Hexadecimal color regular expression.
+- **colorHexCheck:** Check that the hexadecimal color is correct.
 - **colorHexExpand:** Return a 6-digit hexadecimal created from a 3-digit hexadecimal color.
+- **colorHexRegex:** Hexadecimal color regular expression.
 - **colorRandom:** Generates a random hexadecimal color.
 - **colorBrightnessRandom:** Generates a random hexadecimal color from changing the brightness of another.
 - **colorSimilar:** Generates a random hexadecimal color from another.
@@ -125,15 +126,22 @@ npm publish
 - **stringContainSpaceRegex:** Regular expression for text containing spaces.
 - **stringContainSymbol:** Text containing symbols.
 - **stringContainSymbolRegex:** Regular expression for text containing symbol.
+- **stringContainUppercase:** Text containing uppercase letters.
 - **stringContainUppercaseRegex:** Regular expression for text containing uppercase letters.
 - **stringIs:** Is string.
+- **stringIsCapital:** The text starts with a capital letter.
 - **stringIsCapitalRegex:** Regular expression for text starts with a capital letter.
+- **stringIsLetter:** Text with letters.
+- **stringIsLetterExtent:** Text with letters extends.
 - **stringIsLetterExtentRegex:** Regular expression for text with letter extent.
 - **stringIsLetterRegex:** Regular expression for text with lowercase letters.
+- **stringIsLowercase:** Text with lowercase letters.
 - **stringIsLowercaseRegex:** Regular expression for text with lowercase letters.
 - **stringIsNumber:** Text with numbers.
 - **stringIsNumberRegex:** Regular expression for text with numbers.
+- **stringIsSpace:** Text with spaces.
 - **stringIsSpaceRegex:** Regular expression for text with spaces.
+- **stringIsSymbol:** Text with symbols.
 - **stringIsSymbolRegex:** Regular expression for text with symbols.
 
 ## temperature

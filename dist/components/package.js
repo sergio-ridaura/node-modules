@@ -1,15 +1,16 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.kilogramsToPounds = exports.fahrenheitToCelsius = exports.celsiusToFahrenheit = exports.stringIsSymbolRegex = exports.stringIsSpaceRegex = exports.stringIsNumberRegex = exports.stringIsNumber = exports.stringIsLowercaseRegex = exports.stringIsLetterRegex = exports.stringIsLetterExtentRegex = exports.stringIsCapitalRegex = exports.stringIs = exports.stringContainUppercaseRegex = exports.stringContainSymbolRegex = exports.stringContainSymbol = exports.stringContainSpaceRegex = exports.stringContainSpace = exports.stringContainNumberRegex = exports.stringContainLowercaseRegex = exports.stringContainNumber = exports.stringContainLowercase = exports.stringContainLetterRegex = exports.stringContainLetterExtentRegex = exports.stringContainLetterExtent = exports.stringContainLetter = exports.twoDecimalsString = exports.twoDecimal = exports.mphToKph = exports.kphToMph = exports.numberToString = exports.numberToBoolean = exports.numberRandom = exports.numberIsPositive = exports.numberIsPair = exports.numberIs = exports.metersToFeet = exports.feetToMeters = exports.idDefault = exports.emailRegex = exports.emailCheck = exports.dateToLinux = exports.dateGetYear = exports.dateGet = exports.dateCheck = exports.colorSimilar = exports.colorBrightnessRandom = exports.colorRandom = exports.colorHexExpand = exports.colorHexRegex = exports.classDefault = void 0;
-exports.poundsToKilograms = void 0;
+exports.stringIsNumber = exports.stringIsLowercaseRegex = exports.stringIsLowercase = exports.stringIsLetterRegex = exports.stringIsLetter = exports.stringIsLetterExtentRegex = exports.stringIsLetterExtent = exports.stringIsCapitalRegex = exports.stringIsCapital = exports.stringIs = exports.stringContainUppercaseRegex = exports.stringContainUppercase = exports.stringContainSymbolRegex = exports.stringContainSymbol = exports.stringContainSpaceRegex = exports.stringContainSpace = exports.stringContainNumberRegex = exports.stringContainLowercaseRegex = exports.stringContainNumber = exports.stringContainLowercase = exports.stringContainLetterRegex = exports.stringContainLetterExtentRegex = exports.stringContainLetterExtent = exports.stringContainLetter = exports.twoDecimalsString = exports.twoDecimal = exports.mphToKph = exports.kphToMph = exports.numberToString = exports.numberToBoolean = exports.numberRandom = exports.numberIsPositive = exports.numberIsPair = exports.numberIs = exports.metersToFeet = exports.feetToMeters = exports.idDefault = exports.emailRegex = exports.emailCheck = exports.dateToLinux = exports.dateGetYear = exports.dateGet = exports.dateCheck = exports.colorSimilar = exports.colorBrightnessRandom = exports.colorRandom = exports.colorHexRegex = exports.colorHexExpand = exports.colorHexCheck = exports.classDefault = void 0;
+exports.poundsToKilograms = exports.kilogramsToPounds = exports.fahrenheitToCelsius = exports.celsiusToFahrenheit = exports.stringIsSymbolRegex = exports.stringIsSymbol = exports.stringIsSpaceRegex = exports.stringIsSpace = exports.stringIsNumberRegex = void 0;
 /**
  * Components to package and distribute in Npm.
  */
 const class_1 = require("./class");
 Object.defineProperty(exports, "classDefault", { enumerable: true, get: function () { return class_1.classDefault; } });
 const color_1 = require("./color");
-Object.defineProperty(exports, "colorHexRegex", { enumerable: true, get: function () { return color_1.colorHexRegex; } });
+Object.defineProperty(exports, "colorHexCheck", { enumerable: true, get: function () { return color_1.colorHexCheck; } });
 Object.defineProperty(exports, "colorHexExpand", { enumerable: true, get: function () { return color_1.colorHexExpand; } });
+Object.defineProperty(exports, "colorHexRegex", { enumerable: true, get: function () { return color_1.colorHexRegex; } });
 Object.defineProperty(exports, "colorRandom", { enumerable: true, get: function () { return color_1.colorRandom; } });
 Object.defineProperty(exports, "colorBrightnessRandom", { enumerable: true, get: function () { return color_1.colorBrightnessRandom; } });
 Object.defineProperty(exports, "colorSimilar", { enumerable: true, get: function () { return color_1.colorSimilar; } });
@@ -51,15 +52,22 @@ Object.defineProperty(exports, "stringContainSpace", { enumerable: true, get: fu
 Object.defineProperty(exports, "stringContainSpaceRegex", { enumerable: true, get: function () { return string_1.stringContainSpaceRegex; } });
 Object.defineProperty(exports, "stringContainSymbol", { enumerable: true, get: function () { return string_1.stringContainSymbol; } });
 Object.defineProperty(exports, "stringContainSymbolRegex", { enumerable: true, get: function () { return string_1.stringContainSymbolRegex; } });
+Object.defineProperty(exports, "stringContainUppercase", { enumerable: true, get: function () { return string_1.stringContainUppercase; } });
 Object.defineProperty(exports, "stringContainUppercaseRegex", { enumerable: true, get: function () { return string_1.stringContainUppercaseRegex; } });
 Object.defineProperty(exports, "stringIs", { enumerable: true, get: function () { return string_1.stringIs; } });
+Object.defineProperty(exports, "stringIsCapital", { enumerable: true, get: function () { return string_1.stringIsCapital; } });
 Object.defineProperty(exports, "stringIsCapitalRegex", { enumerable: true, get: function () { return string_1.stringIsCapitalRegex; } });
 Object.defineProperty(exports, "stringIsLetterExtentRegex", { enumerable: true, get: function () { return string_1.stringIsLetterExtentRegex; } });
+Object.defineProperty(exports, "stringIsLetter", { enumerable: true, get: function () { return string_1.stringIsLetter; } });
+Object.defineProperty(exports, "stringIsLetterExtent", { enumerable: true, get: function () { return string_1.stringIsLetterExtent; } });
 Object.defineProperty(exports, "stringIsLetterRegex", { enumerable: true, get: function () { return string_1.stringIsLetterRegex; } });
+Object.defineProperty(exports, "stringIsLowercase", { enumerable: true, get: function () { return string_1.stringIsLowercase; } });
 Object.defineProperty(exports, "stringIsLowercaseRegex", { enumerable: true, get: function () { return string_1.stringIsLowercaseRegex; } });
 Object.defineProperty(exports, "stringIsNumber", { enumerable: true, get: function () { return string_1.stringIsNumber; } });
 Object.defineProperty(exports, "stringIsNumberRegex", { enumerable: true, get: function () { return string_1.stringIsNumberRegex; } });
+Object.defineProperty(exports, "stringIsSpace", { enumerable: true, get: function () { return string_1.stringIsSpace; } });
 Object.defineProperty(exports, "stringIsSpaceRegex", { enumerable: true, get: function () { return string_1.stringIsSpaceRegex; } });
+Object.defineProperty(exports, "stringIsSymbol", { enumerable: true, get: function () { return string_1.stringIsSymbol; } });
 Object.defineProperty(exports, "stringIsSymbolRegex", { enumerable: true, get: function () { return string_1.stringIsSymbolRegex; } });
 const temperature_1 = require("./temperature");
 Object.defineProperty(exports, "celsiusToFahrenheit", { enumerable: true, get: function () { return temperature_1.celsiusToFahrenheit; } });
