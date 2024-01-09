@@ -5,6 +5,7 @@ export { classDefault, type ClassDefaultType } from "./class";
 export { colorHexCheck, type ColorHexCheckType, colorHexExpand, type ColorHexExpandType, colorHexRegex, colorRandom, colorBrightnessRandom, type ColorBrightnessRandomType, colorSimilar, type ColorSimilarType, } from "./color";
 export { dateCheck, type DateCheckType, dateGet, type DateGetType, dateGetYear, type DateGetYearType, dateToLinux, type DateToLinuxType, } from "./date";
 export { emailCheck, type EmailCheckType, emailRegex } from "./email";
+export { githubUserGetNode, githubUserFollowersGetNode, githubUserFollowingGetNode, githubUserGistsGetNode } from "./github";
 export { idDefault, type IdDefaultType } from "./id";
 export { feetToMeters, type FeetToMetersType, metersToFeet, type MetersToFeetType, } from "./length";
 export { numberIs, type NumberIsType, numberIsPair, type NumberIsPairType, numberIsPositive, type NumberIsPositiveType, numberRandom, type NumberRandomType, numberToBoolean, type NumberToBooleanType, numberToString, type NumberToStringType, twoDecimal, type TwoDecimalsStringType, twoDecimalsString, type TwoDecimalType, } from "./number";

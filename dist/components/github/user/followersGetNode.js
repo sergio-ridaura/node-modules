@@ -8,12 +8,25 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.githubUserFollowersGetNode = void 0;
+const axios_1 = __importDefault(require("axios"));
 /**
- * Start of the application for the development.
+ *
+ *
+ * @param username
+ * @returns
  */
-const node_github_ridaura_1 = require("node-github-ridaura");
-// console.log(classDefault("default", "world!", "hello"));
-(() => __awaiter(void 0, void 0, void 0, function* () {
-    console.log(yield (0, node_github_ridaura_1.gistsGet)("sergio-ridaura"));
-}))();
+const githubUserFollowersGetNode = (username) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const response = yield axios_1.default.get(`https://api.github.com/users/${username}/followers`);
+        return response.data;
+    }
+    catch (error) {
+        return error;
+    }
+});
+exports.githubUserFollowersGetNode = githubUserFollowersGetNode;

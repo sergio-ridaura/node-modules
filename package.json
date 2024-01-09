@@ -41,5 +41,9 @@
     "@types/node": "^20.10.5",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.4",
+    "node-github-ridaura": "^1.2.0"
   }
 }
